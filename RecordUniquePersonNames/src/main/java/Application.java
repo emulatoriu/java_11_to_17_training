@@ -11,5 +11,6 @@ public class Application {
 		PersonService personService = new PersonService();
 		long uniqueNamesCount = personService.getUniquePersonNameCount(persons);
 		System.out.println(uniqueNamesCount);
+		System.out.println(max);
 	}
 }
